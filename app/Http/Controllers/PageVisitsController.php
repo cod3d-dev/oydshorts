@@ -12,9 +12,9 @@ class PageVisitsController extends Controller
     {
 //        $visits = PageVisits::all();
 //        $visits = DB::table('page_visits')->groupBy('ip')->get();
-        $visits = PageVisits::select('ip', 'url')
-            ->selectRaw('COUNT(ip) as count')
-            ->groupBy('ip', 'url')
+        $visits = PageVisits::select('url')
+            ->selectRaw('COUNT(DISTINCT ip) as count')
+            ->groupBy('url')
             ->get();
         // And return it as JSON
 
