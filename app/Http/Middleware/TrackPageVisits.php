@@ -20,7 +20,7 @@ class TrackPageVisits
     {
 //        dd($request->path());
         $requestUrl = $request->path();
-        if (!Str::startsWith($requestUrl, 'admin') && $requestUrl != 'visitas') {
+        if (!Str::startsWith($requestUrl, 'admin') && $requestUrl != 'visitas' && !Str::startsWith($requestUrl, 'livewire')) {
 
 
         $ipAddress = request()->ip();
