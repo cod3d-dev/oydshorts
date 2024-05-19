@@ -11,6 +11,7 @@ return array(
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Webbingbrasil\\FilamentCopyActions\\' => array($vendorDir . '/webbingbrasil/filament-copyactions/src'),
+    'Torann\\GeoIP\\' => array($vendorDir . '/torann/geoip/src'),
     'TijsVerkoyen\\CssToInlineStyles\\' => array($vendorDir . '/tijsverkoyen/css-to-inline-styles/src'),
     'Tests\\' => array($baseDir . '/tests'),
     'Termwind\\' => array($vendorDir . '/nunomaduro/termwind/src'),

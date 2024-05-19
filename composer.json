@@ -9,6 +9,7 @@
         "filament/filament": "^3.2",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
+        "torann/geoip": "^3.0",
         "webbingbrasil/filament-copyactions": "^3.0"
     },
     "require-dev": {
